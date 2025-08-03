@@ -14,4 +14,12 @@ public class Game {
     private Board board;
     private List<Player> players = new ArrayList<>();
     private WinningStrategy winningStrategy;
+
+
+    public void start(){}
+    public Player checkPlayer(){return null;}
+    public boolean checkDraw(){
+        return false;
+    }
+    public void makeMove(){}
 }
